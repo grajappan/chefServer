@@ -1,0 +1,26 @@
+DEPENDENCIES
+  myhaproxy
+    path: .
+    metadata: true
+
+GRAPH
+  build-essential (8.0.3)
+    mingw (>= 1.1)
+    seven_zip (>= 0.0.0)
+  cpu (2.0.0)
+  haproxy (3.0.2)
+    build-essential (>= 0.0.0)
+    cpu (>= 0.2.0)
+    poise-service (>= 0.0.0)
+  mingw (2.0.1)
+    seven_zip (>= 0.0.0)
+  myhaproxy (1.1.1)
+    haproxy (= 3.0.2)
+  ohai (5.1.0)
+  poise (2.8.1)
+  poise-service (1.5.2)
+    poise (~> 2.0)
+  seven_zip (2.0.2)
+    windows (>= 1.2.2)
+  windows (3.1.1)
+    ohai (>= 4.0.0)
